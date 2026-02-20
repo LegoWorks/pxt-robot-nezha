@@ -1,0 +1,17 @@
+{
+    "name": "pxt-robot-nezha",
+    "description": "Clase Robot para NezhaV2 con seguimiento de línea, movimiento recto con aceleración y giros por encoder.",
+    "icon": "./static/icon.png",
+    "color": "#E63022",
+    "files": [
+        "robot.ts"
+    ],
+    "dependencies": {
+        "core": "*",
+        "nezhaV2": "github:elecfreaks/pxt-nezhaV2",
+        "PlanetX_Basic": "github:elecfreaks/pxt-PlanetX_Basic"
+    },
+    "testFiles": [],
+    "supportedTargets": ["microbit"],
+    "version": "0.0.1"
+}
